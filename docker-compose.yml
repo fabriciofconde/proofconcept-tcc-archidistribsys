@@ -1,0 +1,42 @@
+version: "3.8"
+
+services:
+  db-postgres:
+    image: postgres  
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=developers-qa
+      
+  pgadmin-db:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "fabriciofconde@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "1234"
+    ports:
+      - "16543:80"
+    depends_on:
+      - db-postgres
+
+  api-gateway:
+    image: fabriciofconde/api-gateway-zuul
+    ports:
+      - "8080:8080"
+
+  auth-server:
+    image: fabriciofconde/authserver-oauth2  
+    ports:
+      - "8082:8082"
+    depends_on:
+      - api-gateway
+
+  devs-api:
+    image: fabriciofconde/dev-api  
+    ports:
+      - "8081:8081"
+    depends_on:
+      - db-postgres
+
+  
