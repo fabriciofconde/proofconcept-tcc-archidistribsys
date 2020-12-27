@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: authserver-oauth2
+    
+logging:
+  level.root: info
+  level.org.springframework.security: DEBUG
+
+server:
+  port: 8082
+
+tokenservices:
+  client-id: clientTest-devapi
+  client-secret: security1234

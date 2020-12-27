@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.3.4.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>br.com.ffc.puc.tcc</groupId>
+  <artifactId>architecture-distributed-systems</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>api-gateway-zuul</module>
+    <module>authserver-oauth2</module>
+    <module>dev-api</module>
+  </modules>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.enconding>UTF-8</project.build.enconding>
+    <project.build.java>11</project.build.java>
+    <java.version>11</java.version>
+    <spring-cloud.version>Hoxton.SR8</spring-cloud.version>
+    <modelmapper.version>2.3.8</modelmapper.version>
+    <commons-lang3.version>3.11</commons-lang3.version>
+  </properties>
+  
+  <dependencyManagement>
+      <dependencies>
+          <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-dependencies</artifactId>
+            <version>${spring-cloud.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
+          </dependency>
+      </dependencies>
+  </dependencyManagement>
+
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

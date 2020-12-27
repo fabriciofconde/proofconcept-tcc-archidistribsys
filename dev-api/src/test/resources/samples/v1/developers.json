@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "username": "fabriciofconde",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2835024?v=4",
+    "name": "Fabrício Condé",
+    "company": "BHS",
+    "location": "Belo Horizonte, Brazil",
+    "email": null,
+    "bio": null,
+    "twitterUsername": null,
+    "publicRepository": 21,
+    "followers": 0,
+    "following": 6,
+    "githubMemberSince": "2012-11-19T14:01:31Z"
+  },
+  {
+    "id": 2,
+    "username": "bclozel",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/103264?v=4",
+    "name": "Brian Clozel",
+    "company": "VMWare",
+    "location": "Lyon, France",
+    "email": null,
+    "bio": "Spring Framework and Spring Boot committer @spring-projects ",
+    "twitterUsername": null,
+    "publicRepository": 102,
+    "followers": 959,
+    "following": 37,
+    "githubMemberSince": "2009-07-09T12:46:57Z"
+  },
+  {
+    "id": 3,
+    "username": "bemer",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/8561201?v=4",
+    "name": "Bruno Emer",
+    "company": null,
+    "location": null,
+    "email": null,
+    "bio": null,
+    "twitterUsername": null,
+    "publicRepository": 25,
+    "followers": 44,
+    "following": 3,
+    "githubMemberSince": "2014-08-26T20:20:21Z"
+  }
+]

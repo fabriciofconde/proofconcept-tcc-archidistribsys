@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "developerId": 1,
+    "name": "activerecord2java",
+    "description": null,
+    "updatedAt": "2020-06-26T11:33:36Z",
+    "fork": false,
+    "size": 626,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 2,
+    "developerId": 1,
+    "name": "baking-microservice-pie",
+    "description": "This is the code of the demos for the \"Baking a Microservice Pie\" talk given by @radcortez and @agoncal",
+    "updatedAt": "2020-09-02T12:57:08Z",
+    "fork": true,
+    "size": 40195,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 3,
+    "developerId": 1,
+    "name": "basic-microservice-example",
+    "description": "Simple sketch of how we layout a clojure microservice",
+    "updatedAt": "2020-07-05T23:55:48Z",
+    "fork": true,
+    "size": 1609,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 4,
+    "developerId": 1,
+    "name": "containers-on-aws-workshop",
+    "description": null,
+    "updatedAt": "2020-03-06T11:48:53Z",
+    "fork": true,
+    "size": 169451,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 5,
+    "developerId": 1,
+    "name": "globalize",
+    "description": "Rails I18n de-facto standard library for ActiveRecord model/data translation.",
+    "updatedAt": "2020-06-12T22:10:46Z",
+    "fork": true,
+    "size": 1593,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 6,
+    "developerId": 1,
+    "name": "hibernate-orm",
+    "description": "Hibernate's core Object/Relational Mapping functionality",
+    "updatedAt": "2019-10-14T16:35:30Z",
+    "fork": true,
+    "size": 167589,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 7,
+    "developerId": 1,
+    "name": "imgscalr",
+    "description": "Simple Java image-scaling library implementing Chris Campbell's incremental scaling algorithm as well as Java2D's \"best-practices\" image-scaling techniques.",
+    "updatedAt": "2020-03-12T01:14:17Z",
+    "fork": true,
+    "size": 46339,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 8,
+    "developerId": 1,
+    "name": "microprofile-samples",
+    "description": null,
+    "updatedAt": "2020-09-02T12:57:28Z",
+    "fork": true,
+    "size": 235,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 9,
+    "developerId": 1,
+    "name": "nlw-01-booster",
+    "description": "Projeto construído durante o Next Level Week #01",
+    "updatedAt": "2020-08-12T19:43:04Z",
+    "fork": true,
+    "size": 902,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 10,
+    "developerId": 1,
+    "name": "nlw-01-starter",
+    "description": "Projeto construído durante o Next Level Week #01",
+    "updatedAt": "2020-08-12T19:43:23Z",
+    "fork": true,
+    "size": 181,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 11,
+    "developerId": 1,
+    "name": "r2dbc-postgresql",
+    "description": "Postgresql R2DBC Driver",
+    "updatedAt": "2020-07-06T01:10:39Z",
+    "fork": true,
+    "size": 2079,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 12,
+    "developerId": 1,
+    "name": "rails-i18n",
+    "description": "Repository for collecting Locale data for Ruby on Rails I18n as well as other interesting, Rails related I18n stuff",
+    "updatedAt": "2020-04-03T16:15:03Z",
+    "fork": true,
+    "size": 2569,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 13,
+    "developerId": 1,
+    "name": "rails-pangu",
+    "description": "Rails starter kit that every startup needs",
+    "updatedAt": "2020-04-05T20:19:29Z",
+    "fork": true,
+    "size": 298,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 14,
+    "developerId": 1,
+    "name": "restful-jsonapi",
+    "description": "JSONAPI support, both in request parameters, and serialization.",
+    "updatedAt": "2020-06-22T12:38:46Z",
+    "fork": true,
+    "size": 47,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 15,
+    "developerId": 1,
+    "name": "robe",
+    "description": "A brand new robe for dropwizard",
+    "updatedAt": "2020-08-10T19:41:04Z",
+    "fork": true,
+    "size": 22087,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 16,
+    "developerId": 1,
+    "name": "sagan",
+    "description": "The spring.io site and reference application",
+    "updatedAt": "2020-06-30T18:09:08Z",
+    "fork": true,
+    "size": 31086,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 17,
+    "developerId": 1,
+    "name": "semana-omnistack-10",
+    "description": "Código da aplicação desenvolvida durante a Semana OmniStack 10.0 🚀",
+    "updatedAt": "2020-08-12T15:22:36Z",
+    "fork": true,
+    "size": 2977,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 18,
+    "developerId": 1,
+    "name": "semana-omnistack-11",
+    "description": "Código produzido durante a Semana OmniStack 11.0",
+    "updatedAt": "2020-08-12T15:21:56Z",
+    "fork": true,
+    "size": 754,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 19,
+    "developerId": 1,
+    "name": "semana-omnistack-8",
+    "description": "Código do projeto produzido durante a Semana OmniStack 8.0",
+    "updatedAt": "2020-08-12T15:23:22Z",
+    "fork": true,
+    "size": 1023,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 20,
+    "developerId": 1,
+    "name": "semana-omnistack-9",
+    "description": "Código da aplicação desenvolvida durante a Semana OmniStack 9.0",
+    "updatedAt": "2020-08-12T15:23:07Z",
+    "fork": true,
+    "size": 8053,
+    "forks": 0,
+    "watchers": 0
+  },
+  {
+    "id": 21,
+    "developerId": 1,
+    "name": "trabalho-puc-pp-fuseesb",
+    "description": null,
+    "updatedAt": "2013-05-08T22:14:44Z",
+    "fork": false,
+    "size": 224,
+    "forks": 0,
+    "watchers": 0
+  }
+]

@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  db-postgres:
+    image: postgres  
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+    volumes:
+      - ./volumes/data-postgres:/var/lib/postgresql/data 
+      
+  pgadmin-db:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "fabriciofconde@gmail.com"
+      PGADMIN_DEFAULT_PASSWORD: "1234"
+    volumes:
+      - ./volumes/data-pgadmin/pgadmin:/var/lib/pgadmin
+      - ./volumes/data-pgadmin/to/certificate.cert:/certs/server.cert
+      - ./volumes/data-pgadmin/to/certificate.key:/certs/server.key
+      - ./volumes/data-pgadmin/tmp/servers.json:/pgadmin4/servers.json
+    ports:
+      - "16543:80"
+    depends_on:
+      - db-postgres
